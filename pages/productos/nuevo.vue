@@ -17,7 +17,6 @@
             drop-placeholder="Cargar Imagen"
           />
         </b-form-group>
-
         <b-form-group label="Nombre:" label-for="nombre">
           <b-form-input
             id="nombre"
@@ -51,7 +50,6 @@
         <b-form-group label="Categoria:" label-for="categoria">
           <b-form-select
             type="text"
-            
             v-model="form.categorias"
             :options="categorias"
             placeholder="Ingresa la cantidad disponible del producto"
